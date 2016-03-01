@@ -108,7 +108,5 @@ $(document).on('ready',function(event){
             s % 60
       ];
       return $.map(fm, function(v, i) { return ((v < 10) ? '0' : '') + v; }).join(':');
-    }
-    //COMENTARIO DE PRUEBA
-    
+    };
 });
